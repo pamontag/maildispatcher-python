@@ -171,5 +171,5 @@ cython_debug/
 .pypirc
 
 # TestResults and Data
-# TestResults/
-# TestData/
+TestResults/
+TestData/
