@@ -7,6 +7,7 @@ from messageservices import MessageServices
 from model import EmailData
 
 app = func.FunctionApp()
+
 queue_name_env = os.environ["QUEUE_NAME"]
 connection_env = os.environ["CONNECTION_SETTING"]
 queue_name_output_env = os.environ["QUEUE_OUTPUT_NAME"]

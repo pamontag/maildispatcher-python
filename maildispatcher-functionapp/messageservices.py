@@ -5,7 +5,7 @@ from azure.servicebus import ServiceBusMessage
 
 class MessageServices:
     def __init__(self):
-        self.CONNECTION_STRING = os.getenv("CONNECTIONSTRINGS:ServiceBusConnection")
+        self.CONNECTION_STRING = os.getenv("ServiceBusConnection")
 
     async def send_single_message(self, sender, email_data):
         # Create a Service Bus message and send it to the queue
