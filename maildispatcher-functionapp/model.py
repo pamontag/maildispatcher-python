@@ -4,3 +4,4 @@ class EmailData:
         self.Messaggio = body
         self.MessageId = messageId
         self.ConversationId = conversationId
+        self.EmailCategory = None

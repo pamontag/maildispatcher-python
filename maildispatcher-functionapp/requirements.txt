@@ -6,3 +6,4 @@ azure-functions
 semantic-kernel
 azure-cosmos
 tiktoken==0.8.0
+azure-servicebus
