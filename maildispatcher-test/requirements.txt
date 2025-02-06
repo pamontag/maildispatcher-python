@@ -9,3 +9,10 @@ nest-asyncio==1.6.0
 openpyxl==3.1.5
 python-calamine==0.2.3
 tiktoken==0.8.0
+tabulate
+ipywidgets
+jupyter
+widgetsnbextension
+pandas-profiling
+jupyter_contrib_nbextensions
+notebook==6.4.12
